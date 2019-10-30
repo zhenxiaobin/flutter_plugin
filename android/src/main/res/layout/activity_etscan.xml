@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7772">
+
+    <RelativeLayout
+        android:id="@+id/etop_rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/etop_sv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ImageButton
+            android:id="@+id/etop_ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/etop_back" />
+
+        <ImageButton
+            android:id="@+id/etop_ib_flash_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/etop_flash_off" />
+
+        <ImageButton
+            android:id="@+id/etop_ib_flash_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/etop_flash_on" />
+
+        <TextView
+            android:id="@+id/etop_tv_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<TextView
+            android:id="@+id/tv_mian_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:visibility="gone"
+            android:text="正在扫描证件..." />-->
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_camera">无法启用相机</string>
+    <string name="toast_flash">当前设备不支持闪光灯</string>
+    <string name="service_onlines">[{\"key\":\"real_name\",\"value\":\"%1$s\",\"hidden\":true},
+        {\"key\":\"product\",\"label\":\"产品\",\"value\":\"%2$s\"},
+                  {\"key\":\"mobile_phone\",\"value\":\"%3$s\"},
+                  {\"key\":\"email\",\"value\":\"13800000000@163.com\",\"hidden\":true},
+                  {\"index\":0,\"key\":\"merchantNnmber\",\"label\":\"商户编号\",\"value\":\"%4$s\"}]
+    </string>
+</resources>
