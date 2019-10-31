@@ -1,21 +1,21 @@
 class IdcardBackEntity {
-	String date;
-	String path;
-	String agentname;
+	String idCardExpDate;//有效期
+	String cardImageBackPath;//图片路径
+	String idCardIssuingAuthority;//签发机关
 
-	IdcardBackEntity({this.date, this.path, this.agentname});
+	IdcardBackEntity({this.idCardExpDate, this.cardImageBackPath, this.idCardIssuingAuthority});
 
 	IdcardBackEntity.fromJson(Map<String, dynamic> json) {
-		date = json['date'];
-		path = json['path'];
-		agentname = json['agentname'];
+		idCardExpDate = json['idCardExpDate'];
+		cardImageBackPath = json['cardImageBackPath'];
+		idCardIssuingAuthority = json['idCardIssuingAuthority'];
 	}
 
 	Map<String, dynamic> toJson() {
 		final Map<String, dynamic> data = new Map<String, dynamic>();
-		data['date'] = this.date;
-		data['path'] = this.path;
-		data['agentname'] = this.agentname;
+		data['idCardExpDate'] = this.idCardExpDate;
+		data['cardImageBackPath'] = this.cardImageBackPath;
+		data['idCardIssuingAuthority'] = this.idCardIssuingAuthority;
 		return data;
 	}
 }

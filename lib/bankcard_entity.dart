@@ -1,18 +1,18 @@
 class BankcardEntity {
-	String path;
-	String bankcard;
+	String bankCardImgPath;//图片路径
+	String bankCardNo;//银行卡号
 
-	BankcardEntity({this.path, this.bankcard});
+	BankcardEntity({this.bankCardImgPath, this.bankCardNo});
 
 	BankcardEntity.fromJson(Map<String, dynamic> json) {
-		path = json['path'];
-		bankcard = json['bankcard'];
+		bankCardImgPath = json['bankCardImgPath'];
+		bankCardNo = json['bankCardNo'];
 	}
 
 	Map<String, dynamic> toJson() {
 		final Map<String, dynamic> data = new Map<String, dynamic>();
-		data['path'] = this.path;
-		data['bankcard'] = this.bankcard;
+		data['bankCardImgPath'] = this.bankCardImgPath;
+		data['bankCardNo'] = this.bankCardNo;
 		return data;
 	}
 }

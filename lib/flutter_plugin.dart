@@ -1,6 +1,8 @@
 import 'dart:async';
-
 import 'package:flutter/services.dart';
+export 'bankcard_entity.dart';
+export 'idcard_back_entity.dart';
+export 'idcard_front_entity.dart';
 
 class FlutterPlugin {
   static const MethodChannel _channel =
