@@ -1,6 +1,6 @@
 #import "FlutterPlugin.h"
 #import "BankCardCameraController.h"
-#import "IDCardCameraController.h"
+#import "IDCardCameraController. h"
 #import "UIView+Toast.h"
 
 @interface FlutterPlugin () <IDCardCameraDelegate,CameraDelegate>
