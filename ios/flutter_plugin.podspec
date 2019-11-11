@@ -14,7 +14,7 @@ A new Flutter plugin.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
-  s.resources = ['Classes/YTSDK/947C5EC227912874BCB9.lic']
+  s.resources = ['Classes/YTSDK/947C5EC227912874BCB9.lic', 'Classes/YTSDK/IDCard/ImageResource.bundle']
   s.ios.vendored_libraries = 'Classes/**/*.a'
   s.dependency 'Flutter'
   s.dependency 'Masonry'
