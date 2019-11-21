@@ -50,11 +50,16 @@ android {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
-    api "com.github.armcha:Logger:2.2.0"
-    api 'com.google.code.gson:gson:2.2.4'
+//    api "com.github.armcha:Logger:2.2.0"
+//    api 'com.google.code.gson:gson:2.2.4'
     configurations.all {
         resolutionStrategy.eachDependency {
             DependencyResolveDetails details ->
